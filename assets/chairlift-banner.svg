@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 460" role="img" aria-labelledby="title desc">
+  <title id="title">Chairlift Chat</title>
+  <desc id="desc">A bright chairlift crossing a snowy mountain with hand-drawn speech bubbles.</desc>
+  <rect width="1400" height="460" fill="#17212b"/>
+  <circle cx="1170" cy="90" r="48" fill="#f4c95d"/>
+  <path d="M0 350 210 180 390 330 590 135 820 335 1030 160 1400 370V460H0Z" fill="#263746"/>
+  <path d="M0 385 250 245 420 365 625 220 820 380 1080 245 1400 395V460H0Z" fill="#e8eef0"/>
+  <path d="M80 90H1320" stroke="#f6f1e8" stroke-width="5" stroke-linecap="round"/>
+  <g stroke="#f6f1e8" stroke-width="4" fill="none">
+    <path d="M240 90v75l-22 24h44l-22-24"/>
+    <path d="M520 90v75l-22 24h44l-22-24"/>
+    <path d="M800 90v75l-22 24h44l-22-24"/>
+    <path d="M1080 90v75l-22 24h44l-22-24"/>
+  </g>
+  <g fill="#f26b5e" stroke="#17212b" stroke-width="4">
+    <path d="M114 118c-36-28-86-2-77 39 6 29 41 40 72 26l28 19-8-31c25-18 15-39-15-53Z"/>
+    <path d="M1040 260c-31-26-77-5-75 30 2 29 32 42 63 33l23 22-4-30c26-16 19-38-7-55Z"/>
+  </g>
+  <g fill="#f4c95d" font-family="Arial, sans-serif">
+    <text x="140" y="145" font-size="19" font-weight="700">REAL SCENES</text>
+    <text x="1062" y="294" font-size="17" font-weight="700">GOOD ARGUMENTS</text>
+  </g>
+  <text x="90" y="300" fill="#f6f1e8" font-family="Arial, sans-serif" font-size="58" font-weight="700" letter-spacing="5">CHAIRLIFT CHAT</text>
+  <text x="96" y="344" fill="#a9c1c9" font-family="Arial, sans-serif" font-size="22" letter-spacing="1">ideas from the slope, decisions in public</text>
+  <g stroke="#f26b5e" stroke-width="6" stroke-linecap="round">
+    <path d="M1210 330l48 54"/><path d="M1265 330l-48 54"/>
+  </g>
+</svg>
