@@ -1,0 +1,40 @@
+name: 真实经历
+description: 说说你在雪场遇到的一个具体麻烦
+title: "[经历] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        这不是投诉表，也不用先想好解决方案。把当时发生的事写下来，其他人会帮你一起找出值得改的地方。
+  - type: textarea
+    id: scene
+    attributes:
+      label: 发生了什么
+      description: 尽量写清楚场景、设备和你当时想完成的事。
+      placeholder: 例：零下十度坐缆车，戴着厚手套按不到录制键；下缆车后才发现刚才那段没留下。
+    validations:
+      required: true
+  - type: textarea
+    id: workaround
+    attributes:
+      label: 你现在怎么解决
+      description: 你有没有找到临时办法？它哪里还不够好？
+      placeholder: 例：我改成全程录，但一天要带两块备用电池。
+  - type: textarea
+    id: change
+    attributes:
+      label: 如果能改一个地方
+      description: 你希望哪一步变得不一样？没有答案也可以留空。
+      placeholder: 例：默认保留最近 15 秒，确认后再保存。
+  - type: dropdown
+    id: context
+    attributes:
+      label: 这件事更接近哪一类
+      options:
+        - 拍摄 / 记录
+        - 视频 / 剪辑
+        - 连接 / 分享
+        - 佩戴 / 交互
+        - 续航 / 性能
+        - 安全 / 隐私
+        - 还说不准
