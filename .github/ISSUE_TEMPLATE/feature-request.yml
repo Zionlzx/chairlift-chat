@@ -1,43 +1,52 @@
 name: 功能建议
-description: 提出一个新功能或改进想法（一句话也行）
+description: 你已经想好一个具体的改法
 title: "[建议] "
 labels: ["idea"]
 body:
   - type: markdown
     attributes:
       value: |
-        感谢你的想法！不会写代码完全没关系，把「想要什么 + 什么场景」说清楚就够了。
+        不用写 PRD。把“想改什么”和“什么时候会用到”说清楚就行。
   - type: textarea
     id: what
     attributes:
-      label: 你想要什么
-      description: 一句话说清想要的功能或改变
-      placeholder: 例：滑行中一键回放上一段
+      label: 想改什么
+      description: 一句话写出你希望眼镜多做或少做什么。
+      placeholder: 例：保留按键前 15 秒的视频
     validations:
       required: true
   - type: textarea
-    id: why
+    id: scene
     attributes:
-      label: 为什么 / 什么场景
-      description: 它会在什么场景帮到你？
-      placeholder: 例：摔了之后想立刻回放给自己和朋友看
+      label: 什么时候会用到
+      description: 你在哪、当时发生了什么、现在怎么凑合？
+      placeholder: 例：突然摔倒或做出动作时，往往来不及按开始录制。
+    validations:
+      required: true
+  - type: textarea
+    id: tradeoff
+    attributes:
+      label: 你担心什么（可选）
+      description: 续航、误触、隐私、重量，或者任何你觉得需要提前说的代价。
+      placeholder: 例：如果一直缓存，会不会让电量掉得太快？
   - type: dropdown
     id: category
     attributes:
-      label: 类型
+      label: 更接近哪一类
       options:
         - 拍摄 / 记录
         - 视频 / 剪辑
         - 连接 / 分享
         - 佩戴 / 交互
         - 续航 / 性能
-        - 其他
+        - 安全 / 隐私
+        - 还说不准
     validations:
       required: true
   - type: checkboxes
     id: checks
     attributes:
-      label: 提交前确认
+      label: 发之前确认一下
       options:
-        - label: 我已用搜索确认没有重复的相似建议
-        - label: 我理解投票是参考，最终是否采纳由官方决定
+        - label: 我搜过相似话题；如果有重复，接受被合并到已有讨论
+          required: true
