@@ -1,6 +1,7 @@
 name: 真实经历
 description: 说说你在雪场遇到的一个具体麻烦
 title: "[经历] "
+labels: ["story"]
 body:
   - type: markdown
     attributes:
