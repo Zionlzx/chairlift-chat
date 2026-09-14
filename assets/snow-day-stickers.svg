@@ -1,27 +1,55 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 300" role="img" aria-labelledby="title desc">
   <title id="title">Snow day stickers</title>
-  <desc id="desc">Three playful stickers for fog, cold battery, and a missed moment.</desc>
-  <rect width="1100" height="300" rx="24" fill="#17212b"/>
-  <g font-family="Arial, sans-serif" font-weight="700">
-    <g transform="rotate(-7 190 150)">
-      <rect x="65" y="64" width="245" height="168" rx="22" fill="#e8eef0"/>
-      <circle cx="145" cy="135" r="34" fill="#a9c1c9"/>
-      <circle cx="235" cy="135" r="34" fill="#a9c1c9"/>
-      <path d="M129 187c34 16 86 16 120 0" fill="none" stroke="#17212b" stroke-width="7" stroke-linecap="round"/>
-      <text x="92" y="105" fill="#f26b5e" font-size="17">FOG AGAIN?</text>
-    </g>
-    <g transform="rotate(5 550 150)">
-      <rect x="425" y="64" width="245" height="168" rx="22" fill="#f4c95d"/>
-      <rect x="507" y="105" width="80" height="90" rx="12" fill="#17212b"/>
-      <rect x="524" y="120" width="46" height="45" rx="7" fill="#f26b5e"/>
-      <path d="M548 84v-21M516 88l-13-17M580 88l13-17" stroke="#17212b" stroke-width="7" stroke-linecap="round"/>
-      <text x="454" y="215" fill="#17212b" font-size="17">COLD BATTERY</text>
-    </g>
-    <g transform="rotate(-4 910 150)">
-      <rect x="785" y="64" width="245" height="168" rx="22" fill="#f26b5e"/>
-      <path d="M844 187c34-55 64-83 110-95" fill="none" stroke="#fff8ee" stroke-width="7" stroke-linecap="round"/>
-      <path d="M930 84l27 10-20 19" fill="none" stroke="#fff8ee" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
-      <text x="825" y="215" fill="#fff8ee" font-size="17">MISSED IT</text>
-    </g>
+  <desc id="desc">Three die-cut stickers for fog, cold battery, and a missed moment.</desc>
+  <defs>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="2" stitchTiles="stitch" result="n"/>
+      <feColorMatrix in="n" type="saturate" values="0"/>
+    </filter>
+    <filter id="sticker" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#000000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <rect width="1100" height="300" fill="#17212b"/>
+
+  <g fill="#f6f1e8">
+    <circle cx="120" cy="38" r="2.4" opacity="0.5"/>
+    <circle cx="340" cy="66" r="1.8" opacity="0.4"/>
+    <circle cx="560" cy="40" r="2.2" opacity="0.45"/>
+    <circle cx="760" cy="60" r="1.7" opacity="0.4"/>
+    <circle cx="980" cy="34" r="2.4" opacity="0.5"/>
+    <circle cx="210" cy="250" r="2" opacity="0.35"/>
+    <circle cx="470" cy="270" r="2.2" opacity="0.4"/>
+    <circle cx="700" cy="252" r="1.8" opacity="0.35"/>
+    <circle cx="900" cy="272" r="2.2" opacity="0.4"/>
   </g>
+
+  <g transform="rotate(-7 190 150)" filter="url(#sticker)">
+    <circle cx="190" cy="150" r="96" fill="#e8eef0" stroke="#f6f1e8" stroke-width="7"/>
+    <circle cx="160" cy="124" r="30" fill="#b7cdd4"/>
+    <circle cx="220" cy="124" r="30" fill="#b7cdd4"/>
+    <path d="M128 132 q12 -9 24 0 q12 9 24 0 q12 -9 24 0" fill="none" stroke="#f6f1e8" stroke-width="4.5" stroke-linecap="round"/>
+    <path d="M160 172 q15 8 30 0" fill="none" stroke="#17212b" stroke-width="5.5" stroke-linecap="round"/>
+    <text x="190" y="224" text-anchor="middle" fill="#ef6358" font-family="ui-monospace,'SF Mono','Cascadia Mono',Menlo,Consolas,monospace" font-size="16" font-weight="800" letter-spacing="1.5">FOG AGAIN?</text>
+  </g>
+
+  <g transform="rotate(5 550 150)" filter="url(#sticker)">
+    <circle cx="550" cy="150" r="96" fill="#f4c95d" stroke="#f6f1e8" stroke-width="7"/>
+    <path d="M535 92 l0 16 M550 88 l0 20 M565 92 l0 16" stroke="#17212b" stroke-width="5" stroke-linecap="round"/>
+    <rect x="512" y="118" width="76" height="52" rx="10" fill="none" stroke="#17212b" stroke-width="6"/>
+    <rect x="588" y="134" width="10" height="20" rx="3" fill="#17212b"/>
+    <rect x="520" y="126" width="26" height="36" rx="5" fill="#ef6358"/>
+    <text x="550" y="224" text-anchor="middle" fill="#17212b" font-family="ui-monospace,'SF Mono','Cascadia Mono',Menlo,Consolas,monospace" font-size="16" font-weight="800" letter-spacing="1.5">COLD BATTERY</text>
+  </g>
+
+  <g transform="rotate(-4 910 150)" filter="url(#sticker)">
+    <circle cx="910" cy="150" r="96" fill="#ef6358" stroke="#f6f1e8" stroke-width="7"/>
+    <path d="M842 156 C 880 100, 924 148, 966 96" fill="none" stroke="#fffdf6" stroke-width="8" stroke-linecap="round"/>
+    <path d="M966 96 l-6 24 -16 -18" fill="none" stroke="#fffdf6" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M852 176 l22 6 M874 184 l22 0" stroke="#fffdf6" stroke-width="5" stroke-linecap="round" opacity="0.8"/>
+    <text x="910" y="224" text-anchor="middle" fill="#fffdf6" font-family="ui-monospace,'SF Mono','Cascadia Mono',Menlo,Consolas,monospace" font-size="16" font-weight="800" letter-spacing="1.5">MISSED IT</text>
+  </g>
+
+  <rect x="0" y="0" width="1100" height="300" filter="url(#grain)" opacity="0.05" pointer-events="none"/>
 </svg>
