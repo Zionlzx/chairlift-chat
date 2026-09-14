@@ -14,14 +14,14 @@
 
 这些是第一批种子话题。它们都还没有被承诺排期，欢迎补充你自己的场景：
 
-- [#1 摔倒检测，自动呼救同伴 / 紧急联系人](https://github.com/Zionlzx/chairlift-chat/issues/1)
-- [#2 群组对讲](https://github.com/Zionlzx/chairlift-chat/issues/2)
-- [#3 位置共享与雪场导航](https://github.com/Zionlzx/chairlift-chat/issues/3)
-- [#4 滑行中一键回放上一段](https://github.com/Zionlzx/chairlift-chat/issues/4)
-- [#5 预录，不错过精彩瞬间](https://github.com/Zionlzx/chairlift-chat/issues/5)
-- [#6 自动高光剪辑](https://github.com/Zionlzx/chairlift-chat/issues/6)
-- [#7 戴手套也能语音控制录制](https://github.com/Zionlzx/chairlift-chat/issues/7)
-- [#8 低温续航预警 + 省电模式](https://github.com/Zionlzx/chairlift-chat/issues/8)
+- [#1 摔倒了，能不能自动告诉雪友？](https://github.com/Zionlzx/chairlift-chat/issues/1)
+- [#2 走散以后，能不能直接说句话？](https://github.com/Zionlzx/chairlift-chat/issues/2)
+- [#3 雪道上别再逼我掏手机找路](https://github.com/Zionlzx/chairlift-chat/issues/3)
+- [#4 刚才那段，能不能马上看？](https://github.com/Zionlzx/chairlift-chat/issues/4)
+- [#5 我按下之前的那几秒也想要](https://github.com/Zionlzx/chairlift-chat/issues/5)
+- [#6 滑完很累，别再让我剪三小时](https://github.com/Zionlzx/chairlift-chat/issues/6)
+- [#7 戴着厚手套，真的按不到那个小按钮](https://github.com/Zionlzx/chairlift-chat/issues/7)
+- [#8 我还剩多少电，能不能别让我猜](https://github.com/Zionlzx/chairlift-chat/issues/8)
 
 ## 已经决定的事
 
