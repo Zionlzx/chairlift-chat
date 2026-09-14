@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 闲聊与想法讨论
+    url: https://github.com/Zionlzx/chairlift-chat/discussions
+    about: 还不成型、只想聊聊的念头，去 Discussions 更合适
+  - name: 使用 / 售后求助
+    url: https://github.com/Zionlzx/chairlift-chat/discussions
+    about: 购买、使用、售后相关问题

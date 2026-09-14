@@ -1,0 +1,43 @@
+name: 功能建议
+description: 提出一个新功能或改进想法（一句话也行）
+title: "[建议] "
+labels: ["idea"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢你的想法！不会写代码完全没关系，把「想要什么 + 什么场景」说清楚就够了。
+  - type: textarea
+    id: what
+    attributes:
+      label: 你想要什么
+      description: 一句话说清想要的功能或改变
+      placeholder: 例：滑行中一键回放上一段
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: 为什么 / 什么场景
+      description: 它会在什么场景帮到你？
+      placeholder: 例：摔了之后想立刻回放给自己和朋友看
+  - type: dropdown
+    id: category
+    attributes:
+      label: 类型
+      options:
+        - 拍摄 / 记录
+        - 视频 / 剪辑
+        - 连接 / 分享
+        - 佩戴 / 交互
+        - 续航 / 性能
+        - 其他
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: 提交前确认
+      options:
+        - label: 我已用搜索确认没有重复的相似建议
+        - label: 我理解投票是参考，最终是否采纳由官方决定
